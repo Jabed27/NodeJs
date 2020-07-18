@@ -12,7 +12,7 @@ var sifat = new Person('sifat');
 var people = [jabed,asad,sifat];
 // creating listener
 people.forEach(function(person){
-     person.on('speek',function(msg){
+     person.on('speak',function(msg){
          console.log(person.name+'said'+msg);
      });
 });
